@@ -25,7 +25,7 @@ function Countt($str)
     else
       $special++;
   }
-  echo "Lower case letters : ", $lower, "\n";
+  echo "<br>" . "Mengandung $lower buah huruf kecil.", "\n";
 }
 
 $str = "TranSISI";

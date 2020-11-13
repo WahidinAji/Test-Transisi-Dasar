@@ -16,6 +16,10 @@ $var = 'Test';
 </head>
 
 <body>
+  <br>
+  <a href="/index.php">Home</a>
+  <br>
+  <br>
   <table border="1" cellspacing="0" celpadding="0">
     <tr>
       <td>1</td>
