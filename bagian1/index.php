@@ -1,16 +1,9 @@
-<?php
-echo "<br>" . 'Bagian 1 no 1' . "<br>" . "<br>";
-include('nilai.php');
-$c = count($nilai);
-$j = array_sum($nilai);
-
-$rerata = $j / $c;
-
-echo 'rata-rata :' . $rerata . "<br>";
-echo 'nilai tertinggi' . ' : ' . max($nilai) . "<br>";
-echo 'nilai terendah' . ' : ' . min($nilai) . "<br>";
-
-echo "<br>" . 'Bagian 1 no 2' . "<br>" . "<br>";
-// include('2.php');
-?>
-
+<?php  ?>
+<br>
+<a href="/index.php">Home</a>
+<br>
+Soal Bagian 1
+<br>
+<a href="/bagian1/rerata/index.php">Mencari nilai rata-rata</a>
+<br>
+<a href="/bagian1/huruf/index.php">Menghitung huruf kecil</a>
